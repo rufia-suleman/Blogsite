@@ -1,8 +1,8 @@
-import {Outlet} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import withLayout from "../withLayout";
 
-function Blog() {
-  return <Outlet/>;
-}
 
+function Blog(){
+    return<Outlet/>;
+}
 export default withLayout(Blog);
